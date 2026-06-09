@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>JobMatrix</h1>
+      <h1 className="text-3xl">JobMatrix</h1>
     </main>
   );
 }
