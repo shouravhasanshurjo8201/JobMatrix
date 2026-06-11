@@ -43,7 +43,7 @@ export default function ForgotPasswordPage() {
     };
 
     return (
-        <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-indigo-950 via-slate-900 to-black px-6">
+        <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-linear-to-br from-indigo-950 via-slate-900 to-black px-6">
 
             {/* Background Glow */}
             <div className="absolute top-20 left-20 h-72 w-72 rounded-full bg-indigo-500/30 blur-3xl" />
@@ -100,7 +100,7 @@ export default function ForgotPasswordPage() {
                         <button
                             type="submit"
                             disabled={loading}
-                            className="w-full rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 py-3 font-semibold text-white shadow-lg transition-all hover:scale-[1.02] disabled:cursor-not-allowed disabled:opacity-70"
+                            className="w-full rounded-xl bg-linear-to-r from-indigo-500 to-cyan-500 py-3 font-semibold text-white shadow-lg transition-all hover:scale-[1.02] disabled:cursor-not-allowed disabled:opacity-70"
                         >
                             {loading ? 'Sending Reset Link...' : 'Send Reset Link →'}
                         </button>
